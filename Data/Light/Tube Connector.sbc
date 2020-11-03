@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+  
+    <Definition xsi:type="MyObjectBuilder_ShipConnectorDefinition">
+      <Id>
+        <TypeId>ShipConnector</TypeId>
+        <SubtypeId>L_LG_Pipe_Connector</SubtypeId>
+      </Id>
+      <DisplayName>Large Connector Tube</DisplayName>
+	  <EmissiveColorPreset>ConnectBlock</EmissiveColorPreset>
+      <Icon>Textures\GUI\Icons\L_LG_Pipe_Connector.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Pipe_Connector\L_LG_Pipe_Connector.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="130" />
+        <Component Subtype="Construction" Count="40" />
+        <Component Subtype="SmallTube" Count="12" />
+        <Component Subtype="Motor" Count="8" />
+        <Component Subtype="Computer" Count="20" />
+		<Component Subtype="InteriorPlate" Count="10" />
+        <Component Subtype="SteelPlate" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+	  <BuildProgressModels>
+		<Model BuildPercentUpperBound="0.33" File="Models\Pipe_Connector\L_LG_Pipe_Connector_Constr1.mwm" />
+		<Model BuildPercentUpperBound="0.67" File="Models\Pipe_Connector\L_LG_Pipe_Connector_Constr2.mwm" />
+		<Model BuildPercentUpperBound="1.00" File="Models\Pipe_Connector\L_LG_Pipe_Connector_Constr3.mwm" />
+	  </BuildProgressModels>
+  	  <MountPoints>
+		<MountPoint Side="Front" StartX="0.10" StartY="0.10" EndX="0.27" EndY="0.90" />
+		<MountPoint Side="Front" StartX="0.73" StartY="0.10" EndX="0.90" EndY="0.90" />
+		<MountPoint Side="Front" StartX="0.10" StartY="0.10" EndX="0.90" EndY="0.27" />
+		<MountPoint Side="Front" StartX="0.10" StartY="0.73" EndX="0.90" EndY="0.90" />
+	</MountPoints>
+	<MirroringX>None</MirroringX>
+	<MirroringY>None</MirroringY>
+	<MirroringZ>Y</MirroringZ>
+	  <BlockPairName>L_Conveyor_Pipe_Connector</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>15</BuildTimeSeconds>
+	<AutoUnlockTime_Min>0</AutoUnlockTime_Min>
+	<AutoUnlockTime_Max>3600</AutoUnlockTime_Max>
+      <DamageEffectId>212</DamageEffectId>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <ActionSound>BlockEject</ActionSound>
+    </Definition>
+	
+	
+	
+	
+    <Definition xsi:type="MyObjectBuilder_ShipConnectorDefinition">
+      <Id>
+        <TypeId>ShipConnector</TypeId>
+        <SubtypeId>L_ME_Pipe_Connector</SubtypeId>
+      </Id>
+      <DisplayName>Medium Connector Tube</DisplayName>
+	  <EmissiveColorPreset>ConnectBlock</EmissiveColorPreset>
+      <Icon>Textures\GUI\Icons\L_ME_Pipe_Connector.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Pipe_Connector\L_ME_Pipe_Connector.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="5" />
+		<Component Subtype="LargeTube" Count="3" />
+        <Component Subtype="Construction" Count="12" />
+        <Component Subtype="SmallTube" Count="6" />
+        <Component Subtype="Motor" Count="6" />
+        <Component Subtype="Computer" Count="6" />
+		<Component Subtype="InteriorPlate" Count="3" />
+        <Component Subtype="SteelPlate" Count="3" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+	  <BuildProgressModels>
+		<Model BuildPercentUpperBound="0.33" File="Models\Pipe_Connector\L_ME_Pipe_Connector_Constr1.mwm" />
+		<Model BuildPercentUpperBound="0.67" File="Models\Pipe_Connector\L_ME_Pipe_Connector_Constr2.mwm" />
+		<Model BuildPercentUpperBound="1.00" File="Models\Pipe_Connector\L_ME_Pipe_Connector_Constr3.mwm" />
+	</BuildProgressModels>
+	<MountPoints>
+		<MountPoint Side="Front" StartX="0.31" StartY="0.31" EndX="0.81" EndY="2.69" />
+		<MountPoint Side="Front" StartX="2.19" StartY="0.31" EndX="2.69" EndY="2.69" />
+		<MountPoint Side="Front" StartX="0.31" StartY="0.31" EndX="2.69" EndY="0.81" />
+		<MountPoint Side="Front" StartX="0.31" StartY="2.19" EndX="2.69" EndY="2.69" />
+	</MountPoints>
+	<MirroringX>None</MirroringX>
+	<MirroringY>None</MirroringY>
+	<MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+	<AutoUnlockTime_Min>0</AutoUnlockTime_Min>
+	<AutoUnlockTime_Max>3600</AutoUnlockTime_Max>
+      <DamageEffectId>212</DamageEffectId>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <ActionSound>BlockEject</ActionSound>
+    </Definition>
+	
+	
+	
+	
+    <Definition xsi:type="MyObjectBuilder_ShipConnectorDefinition">
+      <Id>
+        <TypeId>ShipConnector</TypeId>
+        <SubtypeId>L_SM_Pipe_Connector</SubtypeId>
+      </Id>
+      <DisplayName>Small Connector Tube</DisplayName>
+	  <EmissiveColorPreset>ConnectBlock</EmissiveColorPreset>
+      <Icon>Textures\GUI\Icons\L_LG_Pipe_Connector.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Pipe_Connector\L_SM_Pipe_Connector.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="1" />
+		<Component Subtype="LargeTube" Count="1" />
+        <Component Subtype="Construction" Count="4" />
+        <Component Subtype="SmallTube" Count="2" />
+        <Component Subtype="Motor" Count="1" />
+        <Component Subtype="Computer" Count="4" />
+		<Component Subtype="InteriorPlate" Count="1" />
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+	  <BuildProgressModels>
+		<Model BuildPercentUpperBound="0.33" File="Models\Pipe_Connector\L_SM_Pipe_Connector_Constr1.mwm" />
+		<Model BuildPercentUpperBound="0.67" File="Models\Pipe_Connector\L_SM_Pipe_Connector_Constr2.mwm" />
+		<Model BuildPercentUpperBound="1.00" File="Models\Pipe_Connector\L_SM_Pipe_Connector_Constr3.mwm" />
+	</BuildProgressModels>
+	<MountPoints>
+		<MountPoint Side="Front" StartX="0.10" StartY="0.10" EndX="0.27" EndY="0.90" />
+		<MountPoint Side="Front" StartX="0.73" StartY="0.10" EndX="0.90" EndY="0.90" />
+		<MountPoint Side="Front" StartX="0.10" StartY="0.10" EndX="0.90" EndY="0.27" />
+		<MountPoint Side="Front" StartX="0.10" StartY="0.73" EndX="0.90" EndY="0.90" />
+	</MountPoints>
+	<MirroringX>None</MirroringX>
+	<MirroringY>None</MirroringY>
+	<MirroringZ>Y</MirroringZ>
+	  <BlockPairName>L_Conveyor_Pipe_Connector</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+	<AutoUnlockTime_Min>0</AutoUnlockTime_Min>
+	<AutoUnlockTime_Max>3600</AutoUnlockTime_Max>
+      <DamageEffectId>212</DamageEffectId>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <ActionSound>BlockEject</ActionSound>
+    </Definition>
+  
+  </CubeBlocks>
+</Definitions>

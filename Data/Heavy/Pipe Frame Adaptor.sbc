@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+  
+    <Definition>
+      <Id>
+        <TypeId>ConveyorConnector</TypeId>
+        <SubtypeId>ME_Pipe_Frame_Adaptor</SubtypeId>
+      </Id>
+      <DisplayName>Medium Pipeframe Adaptor</DisplayName>
+	  <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <Icon>Textures\GUI\Icons\ME_Pipe_Frame_Adaptor.dds</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="1" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Pipe_Frame_Adaptor\ME_Pipe_Frame_Adaptor.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="1" />
+        <Component Subtype="LargeTube" Count="1" />
+        <Component Subtype="SmallTube" Count="2" />
+        <Component Subtype="Motor" Count="2" />
+		<Component Subtype="InteriorPlate" Count="2" />
+        <Component Subtype="SteelPlate" Count="15" />
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="1" />
+	  <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>15</BuildTimeSeconds>
+      <DamageEffectId>212</DamageEffectId>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+	<BuildProgressModels>
+		<Model BuildPercentUpperBound="0.33" File="Models\Pipe_Frame_Adaptor\ME_Pipe_Frame_Adaptor_Constr1.mwm" />
+		<Model BuildPercentUpperBound="0.67" File="Models\Pipe_Frame_Adaptor\ME_Pipe_Frame_Adaptor_Constr2.mwm" />
+		<Model BuildPercentUpperBound="1.00" File="Models\Pipe_Frame_Adaptor\ME_Pipe_Frame_Adaptor_Constr3.mwm" />
+	</BuildProgressModels>
+	<MountPoints>
+		<MountPoint Side="Top" StartX="2.19" StartY="0.31" EndX="2.69" EndY="2.69" />
+		<MountPoint Side="Bottom" StartX="2.19" StartY="0.31" EndX="2.69" EndY="2.69" />
+		<MountPoint Side="Top" StartX="0.31" StartY="0.31" EndX="0.81" EndY="2.69" />
+		<MountPoint Side="Bottom" StartX="0.31" StartY="0.31" EndX="0.81" EndY="2.69" />
+		<MountPoint Side="Top" StartX="0.31" StartY="2.19" EndX="2.69" EndY="2.69" />
+		<MountPoint Side="Bottom" StartX="0.31" StartY="2.19" EndX="2.69" EndY="2.69" />
+		<MountPoint Side="Top" StartX="0.31" StartY="0.31" EndX="2.69" EndY="0.81" />
+		<MountPoint Side="Bottom" StartX="0.31" StartY="0.31" EndX="2.69" EndY="0.81" />
+	</MountPoints>
+	<MirroringX>None</MirroringX>
+	<MirroringY>Z</MirroringY>
+	<MirroringZ>None</MirroringZ>
+    </Definition>
+  
+  </CubeBlocks>
+</Definitions>

@@ -1,0 +1,315 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+	  <DisplayName>DisplayName_Category_LargeBlocks</DisplayName>
+      <Name>LargeBlocks</Name>
+      <ItemIds>
+        <string>Conveyor/LG_Pipe_Hub</string>
+		<string>AirVent/LG_Pipe_Sraight_Vent</string>
+		<string>Conveyor/LG_Pipe_Hub_Adaptor</string>
+		<string>ConveyorSorter/LG_Pipe_Straight_Sorter</string>
+		<string>Conveyor/L_LG_Pipe_Hub</string>
+		<string>Conveyor/L_LG_Pipe_Hub_Adaptor</string>
+		<string>AirVent/L_LG_Pipe_Sraight_Vent</string>
+		<string>ConveyorSorter/L_LG_Pipe_Straight_Sorter</string>
+		<string>ShipConnector/L_LG_Pipe_Connector</string>
+		<string>ShipConnector/LG_Pipe_Connector</string>
+		<string>ConveyorConnector/LG_Pipe_Straight_Mergeless</string>
+		<string>ConveyorConnector/L_LG_Pipe_Straight_Mergeless</string>
+		<string>Conveyor/LG_Pipe_End</string>	
+		<string>Conveyor/L_LG_Pipe_End</string>
+		<string>ConveyorConnector/L_LG_Exo_Pipe_Straight</string>
+		<string>ConveyorConnector/LG_Exo_Pipe_Straight</string>
+	    <string>CargoContainer/LG_Cargo_Pipe_1x1x1</string>
+		<string>CargoContainer/LG_Cargo_Pipe_3x3x3</string>
+		<string>CargoContainer/L_LG_Cargo_Pipe_3x3x3</string>
+		<string>CargoContainer/L_LG_Cargo_Pipe_1x1x1</string>
+	    <string>OxygenTank/LG_Tank_Hydro</string>
+		<string>OxygenTank/L_LG_Tank_Hydro</string>
+		<string>OxygenTank/LG_Tank_Oxygen</string>
+		<string>OxygenTank/L_LG_Tank_Oxygen</string>
+	    <string>OxygenTank/LG_Tank_Hydro_3x3x3</string>
+		<string>OxygenTank/L_LG_Tank_Hydro_3x3x3</string>
+		<string>OxygenTank/LG_Tank_Oxygen_3x3x3</string>
+		<string>OxygenTank/L_LG_Tank_Oxygen_3x3x3</string>
+      </ItemIds>
+    </Category>
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+	  <DisplayName>DisplayName_Category_SmallBlocks</DisplayName>
+      <Name>SmallBlocks</Name>
+      <ItemIds>
+        <string>Conveyor/SM_Pipe_Hub</string>
+		<string>AirVent/SM_Pipe_Sraight_Vent</string>
+		<string>Conveyor/SM_Pipe_Hub_Adaptor</string>
+		<string>ConveyorSorter/SM_Pipe_Straight_Sorter</string>
+		<string>Conveyor/L_SM_Pipe_Hub</string>
+		<string>Conveyor/L_SM_Pipe_Hub_Adaptor</string>
+		<string>AirVent/L_SM_Pipe_Sraight_Vent</string>
+		<string>ConveyorSorter/L_SM_Pipe_Straight_Sorter</string>
+		<string>ShipConnector/SM_Pipe_Connector</string>
+		<string>Conveyor/SM_Pipe_End</string>	
+		<string>Conveyor/L_SM_Pipe_End</string>
+		<string>ConveyorConnector/L_SM_Exo_Pipe_Straight</string>
+		<string>ConveyorConnector/SM_Exo_Pipe_Straight</string>
+		<string>Conveyor/ME_Pipe_Hub</string>
+		<string>AirVent/ME_Pipe_Straight_Vent</string>
+		<string>Conveyor/ME_Pipe_Hub_Adaptor</string>
+		<string>ConveyorSorter/ME_Pipe_Straight_Sorter</string>
+		<string>Conveyor/L_ME_Pipe_Hub</string>
+		<string>Conveyor/L_ME_Pipe_Hub_Adaptor</string>
+		<string>AirVent/L_ME_Pipe_Straight_Vent</string>
+		<string>ConveyorSorter/L_ME_Pipe_Straight_Sorter</string>
+		<string>ShipConnector/L_ME_Pipe_Connector</string>
+		<string>ShipConnector/ME_Pipe_Connector</string>
+		<string>ShipConnector/L_SM_Pipe_Connector</string>
+		<string>ShipConnector/SM_Pipe_Connector</string>
+		<string>ConveyorConnector/SM_Pipe_Straight_Mergeless</string>
+		<string>ConveyorConnector/L_SM_Pipe_Straight_Mergeless</string>
+		<string>ConveyorConnector/ME_Pipe_Frame</string>
+		<string>ConveyorConnector/L_ME_Pipe_Frame</string>
+		<string>ConveyorConnector/L_ME_Exo_Pipe_Straight</string>
+		<string>ConveyorConnector/ME_Exo_Pipe_Straight</string>
+		<string>CargoContainer/ME_Cargo_Pipe_1x1x1</string>
+		<string>CargoContainer/SM_Cargo_Pipe_1x1x1</string>
+		<string>CargoContainer/SM_Cargo_Pipe_3x3x3</string>
+		<string>CargoContainer/L_SM_Cargo_Pipe_3x3x3</string>
+		<string>CargoContainer/L_ME_Cargo_Pipe_1x1x1</string>
+		<string>CargoContainer/L_SM_Cargo_Pipe_1x1x1</string>
+		<string>OxygenTank/ME_Tank_Hydro</string>
+		<string>OxygenTank/SM_Tank_Hydro</string>
+		<string>OxygenTank/L_ME_Tank_Hydro</string>
+		<string>OxygenTank/L_SM_Tank_Hydro</string>
+		<string>OxygenTank/ME_Tank_Oxygen</string>
+		<string>OxygenTank/SM_Tank_Oxygen</string>
+		<string>OxygenTank/L_ME_Tank_Oxygen</string>
+		<string>OxygenTank/L_SM_Tank_Oxygen</string>
+		<string>OxygenTank/SM_Tank_Hydro_3x3x3</string>
+		<string>OxygenTank/L_SM_Tank_Hydro_3x3x3</string>
+		<string>OxygenTank/SM_Tank_Oxygen_3x3x3</string>
+		<string>OxygenTank/L_SM_Tank_Oxygen_3x3x3</string>
+      </ItemIds>
+    </Category>
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_ConveyorBlocks</DisplayName>
+      <Name>Conveyors</Name>
+      <ItemIds>
+        <string>Conveyor/LG_Pipe_Hub</string>
+		<string>Conveyor/ME_Pipe_Hub</string>
+		
+		<string>AirVent/LG_Pipe_Sraight_Vent</string>
+		<string>AirVent/ME_Pipe_Straight_Vent</string>
+		
+		<string>Conveyor/LG_Pipe_Hub_Adaptor</string>
+		<string>Conveyor/ME_Pipe_Hub_Adaptor</string>
+		
+		<string>ConveyorSorter/LG_Pipe_Straight_Sorter</string>
+		<string>ConveyorSorter/ME_Pipe_Straight_Sorter</string>
+		
+		<string>Conveyor/L_LG_Pipe_Hub</string>
+		<string>Conveyor/L_ME_Pipe_Hub</string>
+		
+		<string>Conveyor/L_LG_Pipe_Hub_Adaptor</string>
+		<string>Conveyor/L_ME_Pipe_Hub_Adaptor</string>
+		
+		<string>AirVent/L_LG_Pipe_Sraight_Vent</string>
+		<string>AirVent/L_ME_Pipe_Straight_Vent</string>
+		
+		<string>ConveyorSorter/L_LG_Pipe_Straight_Sorter</string>
+		<string>ConveyorSorter/L_ME_Pipe_Straight_Sorter</string>
+		
+		<string>ShipConnector/L_LG_Pipe_Connector</string>
+		<string>ShipConnector/LG_Pipe_Connector</string>
+		
+		<string>ShipConnector/L_ME_Pipe_Connector</string>
+		<string>ShipConnector/ME_Pipe_Connector</string>
+		
+		<string>ShipConnector/L_SM_Pipe_Connector</string>
+		<string>ShipConnector/SM_Pipe_Connector</string>
+		
+		<string>ConveyorConnector/LG_Pipe_Straight_Mergeless</string>
+		<string>ConveyorConnector/SM_Pipe_Straight_Mergeless</string>
+		
+		<string>ConveyorConnector/L_LG_Pipe_Straight_Mergeless</string>
+		<string>ConveyorConnector/L_SM_Pipe_Straight_Mergeless</string>
+		
+		<string>ConveyorConnector/ME_Pipe_Frame</string>
+		
+		<string>ConveyorConnector/L_ME_Pipe_Frame</string>
+		
+		<string>Conveyor/LG_Pipe_End</string>
+		
+		<string>Conveyor/L_LG_Pipe_End</string>
+		
+		<string>ConveyorConnector/L_LG_Exo_Pipe_Straight</string>
+		<string>ConveyorConnector/L_ME_Exo_Pipe_Straight</string>
+		
+		<string>ConveyorConnector/LG_Exo_Pipe_Straight</string>
+		<string>ConveyorConnector/ME_Exo_Pipe_Straight</string>
+
+	    <string>CargoContainer/LG_Cargo_Pipe_1x1x1</string>
+		<string>CargoContainer/ME_Cargo_Pipe_1x1x1</string>
+		<string>CargoContainer/SM_Cargo_Pipe_1x1x1</string>
+		
+		<string>CargoContainer/LG_Cargo_Pipe_3x3x3</string>
+		<string>CargoContainer/SM_Cargo_Pipe_3x3x3</string>
+		
+		<string>CargoContainer/L_LG_Cargo_Pipe_3x3x3</string>
+		<string>CargoContainer/L_SM_Cargo_Pipe_3x3x3</string>
+	  
+		<string>CargoContainer/L_LG_Cargo_Pipe_1x1x1</string>
+		<string>CargoContainer/L_ME_Cargo_Pipe_1x1x1</string>
+		<string>CargoContainer/L_SM_Cargo_Pipe_1x1x1</string>
+		
+	    <string>OxygenTank/LG_Tank_Hydro</string>
+		<string>OxygenTank/ME_Tank_Hydro</string>
+		<string>OxygenTank/SM_Tank_Hydro</string>
+	  
+		<string>OxygenTank/L_LG_Tank_Hydro</string>
+		<string>OxygenTank/L_ME_Tank_Hydro</string>
+		<string>OxygenTank/L_SM_Tank_Hydro</string>
+		
+		<string>OxygenTank/LG_Tank_Oxygen</string>
+		<string>OxygenTank/ME_Tank_Oxygen</string>
+		<string>OxygenTank/SM_Tank_Oxygen</string>
+	  
+		<string>OxygenTank/L_LG_Tank_Oxygen</string>
+		<string>OxygenTank/L_ME_Tank_Oxygen</string>
+		<string>OxygenTank/L_SM_Tank_Oxygen</string>
+		
+	    <string>OxygenTank/LG_Tank_Hydro_3x3x3</string>
+		<string>OxygenTank/SM_Tank_Hydro_3x3x3</string>
+	  
+		<string>OxygenTank/L_LG_Tank_Hydro_3x3x3</string>
+		<string>OxygenTank/L_SM_Tank_Hydro_3x3x3</string>
+		
+		<string>OxygenTank/LG_Tank_Oxygen_3x3x3</string>
+		<string>OxygenTank/SM_Tank_Oxygen_3x3x3</string>
+	  
+		<string>OxygenTank/L_LG_Tank_Oxygen_3x3x3</string>
+		<string>OxygenTank/L_SM_Tank_Oxygen_3x3x3</string>
+      </ItemIds>
+    </Category>
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>Cak’s Mods</DisplayName>
+      <Name>Cak</Name>
+      <ItemIds>
+        <string>Conveyor/LG_Pipe_Hub</string>
+		<string>Conveyor/ME_Pipe_Hub</string>
+		
+		<string>AirVent/LG_Pipe_Sraight_Vent</string>
+		<string>AirVent/ME_Pipe_Straight_Vent</string>
+		
+		<string>Conveyor/LG_Pipe_Hub_Adaptor</string>
+		<string>Conveyor/ME_Pipe_Hub_Adaptor</string>
+		
+		<string>ConveyorSorter/LG_Pipe_Straight_Sorter</string>
+		<string>ConveyorSorter/ME_Pipe_Straight_Sorter</string>
+		
+		<string>Conveyor/L_LG_Pipe_Hub</string>
+		<string>Conveyor/L_ME_Pipe_Hub</string>
+		
+		<string>Conveyor/L_LG_Pipe_Hub_Adaptor</string>
+		<string>Conveyor/L_ME_Pipe_Hub_Adaptor</string>
+		
+		<string>AirVent/L_LG_Pipe_Sraight_Vent</string>
+		<string>AirVent/L_ME_Pipe_Straight_Vent</string>
+		
+		<string>ConveyorSorter/L_LG_Pipe_Straight_Sorter</string>
+		<string>ConveyorSorter/L_ME_Pipe_Straight_Sorter</string>
+		
+		<string>ShipConnector/L_LG_Pipe_Connector</string>
+		<string>ShipConnector/LG_Pipe_Connector</string>
+		
+		<string>ShipConnector/L_ME_Pipe_Connector</string>
+		<string>ShipConnector/ME_Pipe_Connector</string>
+		
+		<string>ShipConnector/L_SM_Pipe_Connector</string>
+		<string>ShipConnector/SM_Pipe_Connector</string>
+		
+		<string>ConveyorConnector/LG_Pipe_Straight_Mergeless</string>
+		<string>ConveyorConnector/SM_Pipe_Straight_Mergeless</string>
+		
+		<string>ConveyorConnector/L_LG_Pipe_Straight_Mergeless</string>
+		<string>ConveyorConnector/L_SM_Pipe_Straight_Mergeless</string>
+		
+		<string>ConveyorConnector/ME_Pipe_Frame</string>
+		
+		<string>ConveyorConnector/L_ME_Pipe_Frame</string>
+		
+		<string>Conveyor/LG_Pipe_End</string>
+		
+		<string>Conveyor/L_LG_Pipe_End</string>
+		
+		<string>ConveyorConnector/L_LG_Exo_Pipe_Straight</string>
+		<string>ConveyorConnector/L_ME_Exo_Pipe_Straight</string>
+		
+		<string>ConveyorConnector/LG_Exo_Pipe_Straight</string>
+		<string>ConveyorConnector/ME_Exo_Pipe_Straight</string>
+
+	    <string>CargoContainer/LG_Cargo_Pipe_1x1x1</string>
+		<string>CargoContainer/ME_Cargo_Pipe_1x1x1</string>
+		<string>CargoContainer/SM_Cargo_Pipe_1x1x1</string>
+		
+		<string>CargoContainer/LG_Cargo_Pipe_3x3x3</string>
+		<string>CargoContainer/SM_Cargo_Pipe_3x3x3</string>
+		
+		<string>CargoContainer/L_LG_Cargo_Pipe_3x3x3</string>
+		<string>CargoContainer/L_SM_Cargo_Pipe_3x3x3</string>
+	  
+		<string>CargoContainer/L_LG_Cargo_Pipe_1x1x1</string>
+		<string>CargoContainer/L_ME_Cargo_Pipe_1x1x1</string>
+		<string>CargoContainer/L_SM_Cargo_Pipe_1x1x1</string>
+		
+	    <string>OxygenTank/LG_Tank_Hydro</string>
+		<string>OxygenTank/ME_Tank_Hydro</string>
+		<string>OxygenTank/SM_Tank_Hydro</string>
+	  
+		<string>OxygenTank/L_LG_Tank_Hydro</string>
+		<string>OxygenTank/L_ME_Tank_Hydro</string>
+		<string>OxygenTank/L_SM_Tank_Hydro</string>
+		
+		<string>OxygenTank/LG_Tank_Oxygen</string>
+		<string>OxygenTank/ME_Tank_Oxygen</string>
+		<string>OxygenTank/SM_Tank_Oxygen</string>
+	  
+		<string>OxygenTank/L_LG_Tank_Oxygen</string>
+		<string>OxygenTank/L_ME_Tank_Oxygen</string>
+		<string>OxygenTank/L_SM_Tank_Oxygen</string>
+		
+	    <string>OxygenTank/LG_Tank_Hydro_3x3x3</string>
+		<string>OxygenTank/SM_Tank_Hydro_3x3x3</string>
+	  
+		<string>OxygenTank/L_LG_Tank_Hydro_3x3x3</string>
+		<string>OxygenTank/L_SM_Tank_Hydro_3x3x3</string>
+		
+		<string>OxygenTank/LG_Tank_Oxygen_3x3x3</string>
+		<string>OxygenTank/SM_Tank_Oxygen_3x3x3</string>
+	  
+		<string>OxygenTank/L_LG_Tank_Oxygen_3x3x3</string>
+		<string>OxygenTank/L_SM_Tank_Oxygen_3x3x3</string>
+      </ItemIds>
+    </Category>
+
+  </CategoryClasses>
+</Definitions>

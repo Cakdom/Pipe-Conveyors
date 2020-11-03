@@ -1,0 +1,225 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<BlueprintClassEntries>
+		
+<Entry Class="LargeBlocks" BlueprintSubtypeId="ConveyorConnector/LG_Exo_Pipe_Triangle_Side" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="ConveyorConnector/ME_Exo_Pipe_Triangle_Side" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="ConveyorConnector/SM_Exo_Pipe_Triangle_Side" />
+
+<Entry Class="LargeBlocks" BlueprintSubtypeId="ConveyorConnector/LG_Exo_Pipe_Straight" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="ConveyorConnector/ME_Exo_Pipe_Straight" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="ConveyorConnector/SM_Exo_Pipe_Straight" />
+
+<Entry Class="LargeBlocks" BlueprintSubtypeId="ConveyorConnector/LG_Exo_Pipe_Triangle_Face" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="ConveyorConnector/ME_Exo_Pipe_Triangle_Face" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="ConveyorConnector/SM_Exo_Pipe_Triangle_Face" />
+
+<Entry Class="LargeBlocks" BlueprintSubtypeId="Conveyor/LG_Pipe_+" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/ME_Pipe_+" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/SM_Pipe_+" />
+
+<Entry Class="LargeBlocks" BlueprintSubtypeId="Conveyor/LG_Pipe_4" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/ME_Pipe_4" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/SM_Pipe_4" />
+
+<Entry Class="LargeBlocks" BlueprintSubtypeId="Conveyor/LG_Pipe_5" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/ME_Pipe_5" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/SM_Pipe_5" />
+
+<Entry Class="LargeBlocks" BlueprintSubtypeId="Conveyor/LG_Pipe_T" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/ME_Pipe_T" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/SM_Pipe_T" />
+
+<Entry Class="LargeBlocks" BlueprintSubtypeId="Conveyor/LG_Pipe_Straight" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/ME_Pipe_Straight" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/SM_Pipe_Straight" />
+
+<Entry Class="LargeBlocks" BlueprintSubtypeId="Conveyor/LG_Pipe_Straight_Adapter" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/ME_Pipe_Straight_Adapter" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/SM_Pipe_Straight_Adapter" />
+
+<Entry Class="LargeBlocks" BlueprintSubtypeId="Conveyor/LG_Pipe_Straight_Sorter" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/ME_Pipe_Straight_Sorter" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/SM_Pipe_Straight_Sorter" />
+
+<Entry Class="LargeBlocks" BlueprintSubtypeId="Conveyor/LG_Pipe_Straight_Vent" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/ME_Pipe_Straight_Vent" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/SM_Pipe_Straight_Vent" />
+
+<Entry Class="LargeBlocks" BlueprintSubtypeId="Conveyor/LG_Pipe_Slant" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/ME_Pipe_Slant" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/SM_Pipe_Slant" />
+
+<Entry Class="LargeBlocks" BlueprintSubtypeId="Conveyor/LG_Pipe_Straight_Mergless" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/ME_Pipe_Straight_Mergless" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/SM_Pipe_Straight_Mergless" />
+
+<Entry Class="LargeBlocks" BlueprintSubtypeId="Conveyor/LG_Pipe_Hub" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/ME_Pipe_Hub" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/SM_Pipe_Hub" />
+
+<Entry Class="LargeBlocks" BlueprintSubtypeId="Conveyor/LG_Pipe_Hub_Adapter" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/ME_Pipe_Hub_Adapter" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/SM_Pipe_Hub_Adapter" />
+
+<Entry Class="LargeBlocks" BlueprintSubtypeId="Conveyor/LG_Pipe_End" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/ME_Pipe_End" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/SM_Pipe_End" />
+
+<Entry Class="LargeBlocks" BlueprintSubtypeId="Conveyor/LG_Pipe_Curved" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/ME_Pipe_Curved" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/SM_Pipe_Curved" />
+
+<Entry Class="LargeBlocks" BlueprintSubtypeId="Conveyor/LG_Pipe_Curved_Adapter" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/ME_Pipe_Curved_Adapter" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/SM_Pipe_Curved_Adapter" />
+
+<Entry Class="LargeBlocks" BlueprintSubtypeId="Conveyor/LG_Pipe_Curved_Sorter" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/ME_Pipe_Curved_Sorter" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/SM_Pipe_Curved_Sorter" />
+
+<Entry Class="LargeBlocks" BlueprintSubtypeId="Conveyor/LG_Pipe_Corner" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/ME_Pipe_Corner" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/SM_Pipe_Corner" />
+
+<Entry Class="LargeBlocks" BlueprintSubtypeId="ShipConnector/LG_Pipe_Connector" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="ShipConnector/ME_Pipe_Connector" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="ShipConnector/SM_Pipe_Connector" />
+
+<Entry Class="SmallBlocks" BlueprintSubtypeId="ConveyorConnector/ME_Pipe_Frame" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="ConveyorConnector/ME_Pipe_Frame_Adaptor" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="ConveyorConnector/ME_Pipe_Frame_Distributor" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="ConveyorConnector/ME_Pipe_Frame_Divider" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="ConveyorConnector/ME_Pipe_Frame_Sorter" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="ConveyorConnector/ME_Pipe_Frame_Transformer" />
+
+<Entry Class="LargeBlocks" BlueprintSubtypeId="CargoContainer/LG_Cargo_Pipe_1x1x1" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="CargoContainer/ME_Cargo_Pipe_1x1x1" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="CargoContainer/SM_Cargo_Pipe_1x1x1" />
+<Entry Class="LargeBlocks" BlueprintSubtypeId="CargoContainer/LG_Cargo_Pipe_3x3x3" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="CargoContainer/SM_Cargo_Pipe_3x3x3" />
+
+<Entry Class="LargeBlocks" BlueprintSubtypeId="OxygenTank/LG_Tank_Hydro" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="OxygenTank/ME_Tank_Hydro" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="OxygenTank/SM_Tank_Hydro" />
+<Entry Class="LargeBlocks" BlueprintSubtypeId="OxygenTank/LG_Tank_Hydro_3x3x3" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="OxygenTank/SM_Tank_Hydro_3x3x3" />
+
+<Entry Class="LargeBlocks" BlueprintSubtypeId="OxygenTank/LG_Tank_Oxygen" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="OxygenTank/ME_Tank_Oxygen" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="OxygenTank/SM_Tank_Oxygen" />
+<Entry Class="LargeBlocks" BlueprintSubtypeId="OxygenTank/LG_Tank_Oxygen_3x3x3" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="OxygenTank/SM_Tank_Oxygen_3x3x3" />
+
+
+<Entry Class="LargeBlocks" BlueprintSubtypeId="ConveyorConnector/L_LG_Exo_Pipe_Triangle_Side" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="ConveyorConnector/L_ME_Exo_Pipe_Triangle_Side" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="ConveyorConnector/L_SM_Exo_Pipe_Triangle_Side" />
+
+<Entry Class="LargeBlocks" BlueprintSubtypeId="ConveyorConnector/L_LG_Exo_Pipe_Straight" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="ConveyorConnector/L_ME_Exo_Pipe_Straight" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="ConveyorConnector/L_SM_Exo_Pipe_Straight" />
+
+<Entry Class="LargeBlocks" BlueprintSubtypeId="ConveyorConnector/L_LG_Exo_Pipe_Triangle_Face" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="ConveyorConnector/ME_Exo_Pipe_Triangle_Face" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="ConveyorConnector/SM_Exo_Pipe_Triangle_Face" />
+
+<Entry Class="LargeBlocks" BlueprintSubtypeId="Conveyor/L_LG_Pipe_+" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/L_ME_Pipe_+" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/L_SM_Pipe_+" />
+
+<Entry Class="LargeBlocks" BlueprintSubtypeId="Conveyor/L_LG_Pipe_4" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/L_ME_Pipe_4" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/L_SM_Pipe_4" />
+
+<Entry Class="LargeBlocks" BlueprintSubtypeId="Conveyor/L_LG_Pipe_5" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/L_ME_Pipe_5" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/L_SM_Pipe_5" />
+
+<Entry Class="LargeBlocks" BlueprintSubtypeId="Conveyor/L_LG_Pipe_T" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/L_ME_Pipe_T" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/L_SM_Pipe_T" />
+
+<Entry Class="LargeBlocks" BlueprintSubtypeId="Conveyor/L_LG_Pipe_Straight" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/L_ME_Pipe_Straight" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/L_SM_Pipe_Straight" />
+
+<Entry Class="LargeBlocks" BlueprintSubtypeId="Conveyor/L_LG_Pipe_Straight_Adapter" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/L_ME_Pipe_Straight_Adapter" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/L_SM_Pipe_Straight_Adapter" />
+
+<Entry Class="LargeBlocks" BlueprintSubtypeId="Conveyor/L_LG_Pipe_Straight_Sorter" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/L_ME_Pipe_Straight_Sorter" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/L_SM_Pipe_Straight_Sorter" />
+
+<Entry Class="LargeBlocks" BlueprintSubtypeId="Conveyor/L_LG_Pipe_Straight_Vent" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/L_ME_Pipe_Straight_Vent" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/L_SM_Pipe_Straight_Vent" />
+
+<Entry Class="LargeBlocks" BlueprintSubtypeId="Conveyor/L_LG_Pipe_Slant" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/L_ME_Pipe_Slant" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/L_SM_Pipe_Slant" />
+
+<Entry Class="LargeBlocks" BlueprintSubtypeId="Conveyor/L_LG_Pipe_Straight_Mergless" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/L_ME_Pipe_Straight_Mergless" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/L_SM_Pipe_Straight_Mergless" />
+
+<Entry Class="LargeBlocks" BlueprintSubtypeId="Conveyor/L_LG_Pipe_Hub" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/L_ME_Pipe_Hub" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/L_SM_Pipe_Hub" />
+
+<Entry Class="LargeBlocks" BlueprintSubtypeId="Conveyor/L_LG_Pipe_Hub_Adapter" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/L_ME_Pipe_Hub_Adapter" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/L_SM_Pipe_Hub_Adapter" />
+
+<Entry Class="LargeBlocks" BlueprintSubtypeId="Conveyor/L_LG_Pipe_End" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/L_ME_Pipe_End" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/L_SM_Pipe_End" />
+
+<Entry Class="LargeBlocks" BlueprintSubtypeId="Conveyor/L_LG_Pipe_Curved" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/L_ME_Pipe_Curved" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/L_SM_Pipe_Curved" />
+
+<Entry Class="LargeBlocks" BlueprintSubtypeId="Conveyor/L_LG_Pipe_Curved_Adapter" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/L_ME_Pipe_Curved_Adapter" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/L_SM_Pipe_Curved_Adapter" />
+
+<Entry Class="LargeBlocks" BlueprintSubtypeId="Conveyor/L_LG_Pipe_Curved_Sorter" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/L_ME_Pipe_Curved_Sorter" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/L_SM_Pipe_Curved_Sorter" />
+
+<Entry Class="LargeBlocks" BlueprintSubtypeId="Conveyor/L_LG_Pipe_Corner" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/L_ME_Pipe_Corner" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/L_SM_Pipe_Corner" />
+
+<Entry Class="LargeBlocks" BlueprintSubtypeId="ShipConnector/L_LG_Pipe_Connector" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="ShipConnector/L_ME_Pipe_Connector" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="ShipConnector/L_SM_Pipe_Connector" />
+
+<Entry Class="SmallBlocks" BlueprintSubtypeId="ConveyorConnector/L_ME_Pipe_Frame" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="ConveyorConnector/L_ME_Pipe_Frame_Adaptor" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="ConveyorConnector/L_ME_Pipe_Frame_Distributor" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="ConveyorConnector/L_ME_Pipe_Frame_Divider" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="ConveyorConnector/L_ME_Pipe_Frame_Sorter" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="ConveyorConnector/L_ME_Pipe_Frame_Transformer" />
+
+<Entry Class="LargeBlocks" BlueprintSubtypeId="CargoContainer/L_LG_Cargo_Pipe_1x1x1" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="CargoContainer/L_ME_Cargo_Pipe_1x1x1" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="CargoContainer/L_SM_Cargo_Pipe_1x1x1" />
+<Entry Class="LargeBlocks" BlueprintSubtypeId="CargoContainer/L_LG_Cargo_Pipe_3x3x3" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="CargoContainer/L_SM_Cargo_Pipe_3x3x3" />
+
+<Entry Class="LargeBlocks" BlueprintSubtypeId="OxygenTank/L_LG_Tank_Hydro" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="OxygenTank/L_ME_Tank_Hydro" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="OxygenTank/L_SM_Tank_Hydro" />
+<Entry Class="LargeBlocks" BlueprintSubtypeId="OxygenTank/L_LG_Tank_Hydro_3x3x3" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="OxygenTank/L_SM_Tank_Hydro_3x3x3" />
+
+<Entry Class="LargeBlocks" BlueprintSubtypeId="OxygenTank/L_LG_Tank_Oxygen" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="OxygenTank/L_ME_Tank_Oxygen" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="OxygenTank/L_SM_Tank_Oxygen" />
+<Entry Class="LargeBlocks" BlueprintSubtypeId="OxygenTank/L_LG_Tank_Oxygen_3x3x3" />
+<Entry Class="SmallBlocks" BlueprintSubtypeId="OxygenTank/L_SM_Tank_Oxygen_3x3x3" />
+
+	</BlueprintClassEntries>
+</Definitions>

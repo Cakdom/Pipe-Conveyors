@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>  
+    
+	<Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>L_LG_Cargo_Pipe_3x3x3</SubtypeId>
+      </Id>
+      <DisplayName>Large Cargo Tube XL</DisplayName>	  
+      <Icon>Textures\GUI\Icons\L_LG_Cargo_Pipe_3x3x3.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cargo_Pipe_3x3x3\L_LG_Cargo_Pipe_3x3x3.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="270" />
+        <Component Subtype="Reactor" Count="27" />
+        <Component Subtype="MetalGrid" Count="48" />
+        <Component Subtype="SmallTube" Count="120" />
+        <Component Subtype="Motor" Count="40" />
+        <Component Subtype="Computer" Count="64" />
+        <Component Subtype="Construction" Count="160" />
+        <Component Subtype="InteriorPlate" Count="90" />
+		<Component Subtype="SteelPlate" Count="52" />
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="1" />
+      <BuildProgressModels>
+		<Model BuildPercentUpperBound="0.33" File="Models\Cargo_Pipe_3x3x3\L_LG_Cargo_Pipe_3x3x3_Constr1.mwm" />
+		<Model BuildPercentUpperBound="0.67" File="Models\Cargo_Pipe_3x3x3\L_LG_Cargo_Pipe_3x3x3_Constr2.mwm" />
+		<Model BuildPercentUpperBound="1.00" File="Models\Cargo_Pipe_3x3x3\L_LG_Cargo_Pipe_3x3x3_Constr3.mwm" />
+	</BuildProgressModels>
+	<MountPoints>
+		<MountPoint Side="Bottom" StartX="1.73" StartY="1.10" EndX="1.90" EndY="1.90" />
+		<MountPoint Side="Bottom" StartX="1.10" StartY="1.10" EndX="1.27" EndY="1.90" />
+		<MountPoint Side="Bottom" StartX="1.10" StartY="1.73" EndX="1.90" EndY="1.90" />
+		<MountPoint Side="Bottom" StartX="1.10" StartY="1.10" EndX="1.90" EndY="1.27" />
+		<MountPoint Side="Top" StartX="1.10" StartY="1.73" EndX="1.90" EndY="1.90" />
+		<MountPoint Side="Top" StartX="1.10" StartY="1.10" EndX="1.90" EndY="1.27" />
+		<MountPoint Side="Top" StartX="1.10" StartY="1.10" EndX="1.27" EndY="1.90" />
+		<MountPoint Side="Top" StartX="1.73" StartY="1.10" EndX="1.90" EndY="1.90" />
+	</MountPoints>
+      <BlockPairName>L_Cargo_Pipe_3x3x3</BlockPairName>
+      <MirroringX>None</MirroringX>
+	  <MirroringY>None</MirroringY>
+	  <MirroringZ>None</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>80</BuildTimeSeconds>
+      <InventorySize>
+        <X>15</X>
+        <Y>15</Y>
+        <Z>15</Z>
+      </InventorySize>
+    </Definition>
+	
+	
+	
+	<Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>L_SM_Cargo_Pipe_3x3x3</SubtypeId>
+      </Id>
+      <DisplayName>Small Cargo Tube XL</DisplayName>
+      <Icon>Textures\GUI\Icons\L_SM_Cargo_Pipe_3x3x3.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="9" y="9" z="9" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cargo_Pipe_3x3x3\L_SM_Cargo_Pipe_3x3x3.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="180" />
+        <Component Subtype="Reactor" Count="18" />
+        <Component Subtype="Motor" Count="36" />
+		<Component Subtype="Construction" Count="36" />
+		<Component Subtype="Computer" Count="36" />
+        <Component Subtype="InteriorPlate" Count="9" />
+		<Component Subtype="SteelPlate" Count="9" />
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="1" />
+      <BuildProgressModels>
+		<Model BuildPercentUpperBound="0.33" File="Models\Cargo_Pipe_3x3x3\L_SM_Cargo_Pipe_3x3x3_Constr1.mwm" />
+		<Model BuildPercentUpperBound="0.67" File="Models\Cargo_Pipe_3x3x3\L_SM_Cargo_Pipe_3x3x3_Constr2.mwm" />
+		<Model BuildPercentUpperBound="1.00" File="Models\Cargo_Pipe_3x3x3\L_SM_Cargo_Pipe_3x3x3_Constr3.mwm" />
+	</BuildProgressModels>
+	<MountPoints>
+		<MountPoint Side="Bottom" StartX="5.19" StartY="3.31" EndX="5.69" EndY="5.69" />
+		<MountPoint Side="Bottom" StartX="3.31" StartY="3.31" EndX="3.81" EndY="5.69" />
+		<MountPoint Side="Bottom" StartX="3.31" StartY="5.19" EndX="5.69" EndY="5.69" />
+		<MountPoint Side="Bottom" StartX="3.31" StartY="3.31" EndX="5.69" EndY="3.81" />
+		<MountPoint Side="Top" StartX="3.31" StartY="5.19" EndX="5.69" EndY="5.69" />
+		<MountPoint Side="Top" StartX="3.31" StartY="3.31" EndX="5.69" EndY="3.81" />
+		<MountPoint Side="Top" StartX="3.31" StartY="3.31" EndX="3.81" EndY="5.69" />
+		<MountPoint Side="Top" StartX="5.19" StartY="3.31" EndX="5.69" EndY="5.69" />
+		<MountPoint Side="Top" StartX="6.00" StartY="4.00" EndX="7.00" EndY="5.00" />
+		<MountPoint Side="Top" StartX="4.00" StartY="6.00" EndX="5.00" EndY="7.00" />
+		<MountPoint Side="Top" StartX="4.00" StartY="2.00" EndX="5.00" EndY="3.00" />
+		<MountPoint Side="Top" StartX="2.00" StartY="4.00" EndX="3.00" EndY="5.00" />
+		<MountPoint Side="Bottom" StartX="6.00" StartY="4.00" EndX="7.00" EndY="5.00" />
+		<MountPoint Side="Bottom" StartX="4.00" StartY="6.00" EndX="5.00" EndY="7.00" />
+		<MountPoint Side="Bottom" StartX="4.00" StartY="2.00" EndX="5.00" EndY="3.00" />
+		<MountPoint Side="Bottom" StartX="2.00" StartY="4.00" EndX="3.00" EndY="5.00" />
+	</MountPoints>
+	<BlockPairName>L_Cargo_Pipe_3x3x3</BlockPairName>
+      <MirroringX>None</MirroringX>
+	  <MirroringY>None</MirroringY>
+	  <MirroringZ>None</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+      <InventorySize>
+        <X>9</X>
+        <Y>9</Y>
+        <Z>9</Z>
+      </InventorySize>
+    </Definition>
+	
+  </CubeBlocks>
+</Definitions>
+
+    

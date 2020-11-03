@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+	
+	<Definition xsi:type="MyObjectBuilder_GasTankDefinition">
+      <Id>
+        <TypeId>OxygenTank</TypeId>
+        <SubtypeId>L_LG_Tank_Oxygen_3x3x3</SubtypeId>
+      </Id>
+      <DisplayName>Large Oxygen Tube XL</DisplayName>
+      <Icon>Textures\GUI\Icons\L_LG_Tank_Oxygen_3x3x3.dds</Icon>
+	  <EmissiveColorPreset>Extended</EmissiveColorPreset>
+	  <GuiVisible>true</GuiVisible>
+      <Public>true</Public>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Tank_Oxygen_3x3x3\L_LG_Tank_Oxygen_3x3x3.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="270" />
+        <Component Subtype="LargeTube" Count="180" />
+        <Component Subtype="SmallTube" Count="270" />
+		<Component Subtype="InteriorPlate" Count="225" />
+        <Component Subtype="Computer" Count="72" />
+        <Component Subtype="Construction" Count="180" />
+		<Component Subtype="InteriorPlate" Count="90" />
+        <Component Subtype="SteelPlate" Count="45" />
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="1" />
+	<BuildProgressModels>
+		<Model BuildPercentUpperBound="0.33" File="Models\Tank_Oxygen_3x3x3\L_LG_Tank_Oxygen_3x3x3_Constr1.mwm" />
+		<Model BuildPercentUpperBound="0.67" File="Models\Tank_Oxygen_3x3x3\L_LG_Tank_Oxygen_3x3x3_Constr2.mwm" />
+		<Model BuildPercentUpperBound="1.00" File="Models\Tank_Oxygen_3x3x3\L_LG_Tank_Oxygen_3x3x3_Constr3.mwm" />
+	</BuildProgressModels>
+	<MountPoints>
+		<MountPoint Side="Bottom" StartX="0.31" StartY="0.79" EndX="0.55" EndY="1.03" />
+		<MountPoint Side="Bottom" StartX="0.31" StartY="1.03" EndX="0.55" EndY="1.26" />
+		<MountPoint Side="Bottom" StartX="0.31" StartY="1.26" EndX="0.55" EndY="1.50" />
+		<MountPoint Side="Bottom" StartX="0.31" StartY="1.50" EndX="0.55" EndY="1.74" />
+		<MountPoint Side="Bottom" StartX="0.31" StartY="1.74" EndX="0.55" EndY="1.97" />
+		<MountPoint Side="Bottom" StartX="0.31" StartY="1.97" EndX="0.55" EndY="2.21" />
+		<MountPoint Side="Bottom" StartX="1.97" StartY="0.31" EndX="2.21" EndY="0.55" />
+		<MountPoint Side="Bottom" StartX="1.74" StartY="0.31" EndX="1.97" EndY="0.55" />
+		<MountPoint Side="Bottom" StartX="1.50" StartY="0.31" EndX="1.74" EndY="0.55" />
+		<MountPoint Side="Bottom" StartX="1.26" StartY="0.31" EndX="1.50" EndY="0.55" />
+		<MountPoint Side="Bottom" StartX="1.03" StartY="0.31" EndX="1.26" EndY="0.55" />
+		<MountPoint Side="Bottom" StartX="0.79" StartY="0.31" EndX="1.03" EndY="0.55" />
+		<MountPoint Side="Bottom" StartX="2.21" StartY="0.55" EndX="2.45" EndY="0.79" />
+		<MountPoint Side="Bottom" StartX="0.55" StartY="0.55" EndX="0.79" EndY="0.79" />
+		<MountPoint Side="Bottom" StartX="2.45" StartY="0.79" EndX="2.69" EndY="1.03" />
+		<MountPoint Side="Bottom" StartX="2.45" StartY="1.03" EndX="2.69" EndY="1.26" />
+		<MountPoint Side="Bottom" StartX="2.45" StartY="1.26" EndX="2.69" EndY="1.50" />
+		<MountPoint Side="Bottom" StartX="2.45" StartY="1.50" EndX="2.69" EndY="1.74" />
+		<MountPoint Side="Bottom" StartX="2.45" StartY="1.74" EndX="2.69" EndY="1.97" />
+		<MountPoint Side="Bottom" StartX="2.45" StartY="1.97" EndX="2.69" EndY="2.21" />
+		<MountPoint Side="Bottom" StartX="2.21" StartY="2.21" EndX="2.45" EndY="2.45" />
+		<MountPoint Side="Bottom" StartX="0.55" StartY="2.21" EndX="0.79" EndY="2.45" />
+		<MountPoint Side="Bottom" StartX="1.97" StartY="2.45" EndX="2.21" EndY="2.69" />
+		<MountPoint Side="Bottom" StartX="1.74" StartY="2.45" EndX="1.97" EndY="2.69" />
+		<MountPoint Side="Bottom" StartX="1.50" StartY="2.45" EndX="1.74" EndY="2.69" />
+		<MountPoint Side="Bottom" StartX="1.26" StartY="2.45" EndX="1.50" EndY="2.69" />
+		<MountPoint Side="Bottom" StartX="1.03" StartY="2.45" EndX="1.26" EndY="2.69" />
+		<MountPoint Side="Bottom" StartX="0.79" StartY="2.45" EndX="1.03" EndY="2.69" />
+		<MountPoint Side="Top" StartX="0.31" StartY="1.97" EndX="0.55" EndY="2.21" />
+		<MountPoint Side="Top" StartX="0.31" StartY="1.74" EndX="0.55" EndY="1.97" />
+		<MountPoint Side="Top" StartX="0.31" StartY="1.50" EndX="0.55" EndY="1.74" />
+		<MountPoint Side="Top" StartX="0.31" StartY="1.26" EndX="0.55" EndY="1.50" />
+		<MountPoint Side="Top" StartX="0.31" StartY="1.03" EndX="0.55" EndY="1.26" />
+		<MountPoint Side="Top" StartX="0.31" StartY="0.79" EndX="0.55" EndY="1.03" />
+		<MountPoint Side="Top" StartX="1.97" StartY="2.45" EndX="2.21" EndY="2.69" />
+		<MountPoint Side="Top" StartX="1.74" StartY="2.45" EndX="1.97" EndY="2.69" />
+		<MountPoint Side="Top" StartX="1.50" StartY="2.45" EndX="1.74" EndY="2.69" />
+		<MountPoint Side="Top" StartX="1.26" StartY="2.45" EndX="1.50" EndY="2.69" />
+		<MountPoint Side="Top" StartX="1.03" StartY="2.45" EndX="1.26" EndY="2.69" />
+		<MountPoint Side="Top" StartX="0.79" StartY="2.45" EndX="1.03" EndY="2.69" />
+		<MountPoint Side="Top" StartX="2.21" StartY="2.21" EndX="2.45" EndY="2.45" />
+		<MountPoint Side="Top" StartX="0.55" StartY="2.21" EndX="0.79" EndY="2.45" />
+		<MountPoint Side="Top" StartX="2.45" StartY="1.97" EndX="2.69" EndY="2.21" />
+		<MountPoint Side="Top" StartX="2.45" StartY="1.74" EndX="2.69" EndY="1.97" />
+		<MountPoint Side="Top" StartX="2.45" StartY="1.50" EndX="2.69" EndY="1.74" />
+		<MountPoint Side="Top" StartX="2.45" StartY="1.26" EndX="2.69" EndY="1.50" />
+		<MountPoint Side="Top" StartX="2.45" StartY="1.03" EndX="2.69" EndY="1.26" />
+		<MountPoint Side="Top" StartX="2.45" StartY="0.79" EndX="2.69" EndY="1.03" />
+		<MountPoint Side="Top" StartX="2.21" StartY="0.55" EndX="2.45" EndY="0.79" />
+		<MountPoint Side="Top" StartX="0.55" StartY="0.55" EndX="0.79" EndY="0.79" />
+		<MountPoint Side="Top" StartX="1.97" StartY="0.31" EndX="2.21" EndY="0.55" />
+		<MountPoint Side="Top" StartX="1.74" StartY="0.31" EndX="1.97" EndY="0.55" />
+		<MountPoint Side="Top" StartX="1.50" StartY="0.31" EndX="1.74" EndY="0.55" />
+		<MountPoint Side="Top" StartX="1.26" StartY="0.31" EndX="1.50" EndY="0.55" />
+		<MountPoint Side="Top" StartX="1.03" StartY="0.31" EndX="1.26" EndY="0.55" />
+		<MountPoint Side="Top" StartX="0.79" StartY="0.31" EndX="1.03" EndY="0.55" />
+		<MountPoint Side="Bottom" StartX="1.73" StartY="1.10" EndX="1.90" EndY="1.90" />
+		<MountPoint Side="Bottom" StartX="1.10" StartY="1.10" EndX="1.27" EndY="1.90" />
+		<MountPoint Side="Bottom" StartX="1.10" StartY="1.73" EndX="1.90" EndY="1.90" />
+		<MountPoint Side="Bottom" StartX="1.10" StartY="1.10" EndX="1.90" EndY="1.27" />
+		<MountPoint Side="Top" StartX="1.10" StartY="1.73" EndX="1.90" EndY="1.90" />
+		<MountPoint Side="Top" StartX="1.10" StartY="1.10" EndX="1.90" EndY="1.27" />
+		<MountPoint Side="Top" StartX="1.10" StartY="1.10" EndX="1.27" EndY="1.90" />
+		<MountPoint Side="Top" StartX="1.73" StartY="1.10" EndX="1.90" EndY="1.90" />
+	</MountPoints>
+	<MirroringX>Z</MirroringX>
+	<MirroringY>None</MirroringY>
+	<MirroringZ>X</MirroringZ>
+	<BlockPairName>L_Tank_Oxygen_3x3x3</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <OperationalPowerConsumption>0.0001</OperationalPowerConsumption>
+      <StandbyPowerConsumption>0.0000001</StandbyPowerConsumption>
+      <Capacity>1350000</Capacity>
+      <InventoryMaxVolume>4</InventoryMaxVolume>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <Public>false</Public>
+      <StoredGasId>
+        <TypeId>GasProperties</TypeId>
+        <SubtypeId>Oxygen</SubtypeId>
+      </StoredGasId>
+      <BlueprintClasses>
+        <Class>OxygenBottles</Class>
+      </BlueprintClasses>
+      <BuildTimeSeconds>80</BuildTimeSeconds>
+      <DamageEffectId>213</DamageEffectId>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+    </Definition>
+	
+	
+	
+	<Definition xsi:type="MyObjectBuilder_GasTankDefinition">
+      <Id>
+        <TypeId>OxygenTank</TypeId>
+        <SubtypeId>L_SM_Tank_Oxygen_3x3x3</SubtypeId>
+      </Id>
+      <DisplayName>Small Oxygen Tube XL</DisplayName>
+      <Icon>Textures\GUI\Icons\L_SM_Tank_Oxygen_3x3x3.dds</Icon>
+	  <EmissiveColorPreset>Extended</EmissiveColorPreset>
+	  <GuiVisible>false</GuiVisible>
+      <Public>true</Public>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="9" y="9" z="9" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Tank_Oxygen_3x3x3\L_SM_Tank_Oxygen_3x3x3.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="90" />
+		<Component Subtype="LargeTube" Count="9" />
+        <Component Subtype="SmallTube" Count="27" />
+		<Component Subtype="InteriorPlate" Count="18" />
+        <Component Subtype="Computer" Count="27" />
+        <Component Subtype="Construction" Count="18" />
+		<Component Subtype="InteriorPlate" Count="9" />
+        <Component Subtype="SteelPlate" Count="9" />
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="1" />
+	<BuildProgressModels>
+		<Model BuildPercentUpperBound="0.33" File="Models\Tank_Oxygen_3x3x3\L_SM_Tank_Oxygen_3x3x3_Constr1.mwm" />
+		<Model BuildPercentUpperBound="0.67" File="Models\Tank_Oxygen_3x3x3\L_SM_Tank_Oxygen_3x3x3_Constr2.mwm" />
+		<Model BuildPercentUpperBound="1.00" File="Models\Tank_Oxygen_3x3x3\L_SM_Tank_Oxygen_3x3x3_Constr3.mwm" />
+	</BuildProgressModels>
+	<MountPoints>
+		<MountPoint Side="Top" StartX="0.94" StartY="5.92" EndX="1.65" EndY="6.64" />
+		<MountPoint Side="Top" StartX="0.94" StartY="5.21" EndX="1.65" EndY="5.92" />
+		<MountPoint Side="Top" StartX="0.94" StartY="4.50" EndX="1.65" EndY="5.21" />
+		<MountPoint Side="Top" StartX="0.94" StartY="3.79" EndX="1.65" EndY="4.50" />
+		<MountPoint Side="Top" StartX="0.94" StartY="3.08" EndX="1.65" EndY="3.79" />
+		<MountPoint Side="Top" StartX="0.94" StartY="2.36" EndX="1.65" EndY="3.08" />
+		<MountPoint Side="Top" StartX="5.92" StartY="7.35" EndX="6.64" EndY="8.06" />
+		<MountPoint Side="Top" StartX="5.21" StartY="7.35" EndX="5.92" EndY="8.06" />
+		<MountPoint Side="Top" StartX="4.50" StartY="7.35" EndX="5.21" EndY="8.06" />
+		<MountPoint Side="Top" StartX="3.79" StartY="7.35" EndX="4.50" EndY="8.06" />
+		<MountPoint Side="Top" StartX="3.08" StartY="7.35" EndX="3.79" EndY="8.06" />
+		<MountPoint Side="Top" StartX="2.36" StartY="7.35" EndX="3.08" EndY="8.06" />
+		<MountPoint Side="Bottom" StartX="6.64" StartY="1.65" EndX="7.35" EndY="2.36" />
+		<MountPoint Side="Bottom" StartX="1.65" StartY="1.65" EndX="2.36" EndY="2.36" />
+		<MountPoint Side="Top" StartX="7.35" StartY="5.92" EndX="8.06" EndY="6.64" />
+		<MountPoint Side="Top" StartX="7.35" StartY="5.21" EndX="8.06" EndY="5.92" />
+		<MountPoint Side="Top" StartX="7.35" StartY="4.50" EndX="8.06" EndY="5.21" />
+		<MountPoint Side="Top" StartX="7.35" StartY="3.79" EndX="8.06" EndY="4.50" />
+		<MountPoint Side="Top" StartX="7.35" StartY="3.08" EndX="8.06" EndY="3.79" />
+		<MountPoint Side="Top" StartX="7.35" StartY="2.36" EndX="8.06" EndY="3.08" />
+		<MountPoint Side="Bottom" StartX="6.64" StartY="6.64" EndX="7.35" EndY="7.35" />
+		<MountPoint Side="Bottom" StartX="1.65" StartY="6.64" EndX="2.36" EndY="7.35" />
+		<MountPoint Side="Top" StartX="5.92" StartY="0.94" EndX="6.64" EndY="1.65" />
+		<MountPoint Side="Top" StartX="5.21" StartY="0.94" EndX="5.92" EndY="1.65" />
+		<MountPoint Side="Top" StartX="4.50" StartY="0.94" EndX="5.21" EndY="1.65" />
+		<MountPoint Side="Top" StartX="3.79" StartY="0.94" EndX="4.50" EndY="1.65" />
+		<MountPoint Side="Top" StartX="3.08" StartY="0.94" EndX="3.79" EndY="1.65" />
+		<MountPoint Side="Top" StartX="2.36" StartY="0.94" EndX="3.08" EndY="1.65" />
+		<MountPoint Side="Bottom" StartX="0.94" StartY="2.36" EndX="1.65" EndY="3.08" />
+		<MountPoint Side="Bottom" StartX="0.94" StartY="3.08" EndX="1.65" EndY="3.79" />
+		<MountPoint Side="Bottom" StartX="0.94" StartY="3.79" EndX="1.65" EndY="4.50" />
+		<MountPoint Side="Bottom" StartX="0.94" StartY="4.50" EndX="1.65" EndY="5.21" />
+		<MountPoint Side="Bottom" StartX="0.94" StartY="5.21" EndX="1.65" EndY="5.92" />
+		<MountPoint Side="Bottom" StartX="0.94" StartY="5.92" EndX="1.65" EndY="6.64" />
+		<MountPoint Side="Bottom" StartX="5.92" StartY="0.94" EndX="6.64" EndY="1.65" />
+		<MountPoint Side="Bottom" StartX="5.21" StartY="0.94" EndX="5.92" EndY="1.65" />
+		<MountPoint Side="Bottom" StartX="4.50" StartY="0.94" EndX="5.21" EndY="1.65" />
+		<MountPoint Side="Bottom" StartX="3.79" StartY="0.94" EndX="4.50" EndY="1.65" />
+		<MountPoint Side="Bottom" StartX="3.08" StartY="0.94" EndX="3.79" EndY="1.65" />
+		<MountPoint Side="Bottom" StartX="2.36" StartY="0.94" EndX="3.08" EndY="1.65" />
+		<MountPoint Side="Top" StartX="6.64" StartY="6.64" EndX="7.35" EndY="7.35" />
+		<MountPoint Side="Bottom" StartX="1.65" StartY="1.65" EndX="2.36" EndY="2.36" />
+		<MountPoint Side="Bottom" StartX="7.35" StartY="2.36" EndX="8.06" EndY="3.08" />
+		<MountPoint Side="Bottom" StartX="7.35" StartY="3.08" EndX="8.06" EndY="3.79" />
+		<MountPoint Side="Bottom" StartX="7.35" StartY="3.79" EndX="8.06" EndY="4.50" />
+		<MountPoint Side="Bottom" StartX="7.35" StartY="4.50" EndX="8.06" EndY="5.21" />
+		<MountPoint Side="Bottom" StartX="7.35" StartY="5.21" EndX="8.06" EndY="5.92" />
+		<MountPoint Side="Bottom" StartX="7.35" StartY="5.92" EndX="8.06" EndY="6.64" />
+		<MountPoint Side="Bottom" StartX="6.64" StartY="6.64" EndX="7.35" EndY="7.35" />
+		<MountPoint Side="Bottom" StartX="1.65" StartY="6.64" EndX="2.36" EndY="7.35" />
+		<MountPoint Side="Bottom" StartX="5.92" StartY="7.35" EndX="6.64" EndY="8.06" />
+		<MountPoint Side="Bottom" StartX="5.21" StartY="7.35" EndX="5.92" EndY="8.06" />
+		<MountPoint Side="Bottom" StartX="4.50" StartY="7.35" EndX="5.21" EndY="8.06" />
+		<MountPoint Side="Bottom" StartX="3.79" StartY="7.35" EndX="4.50" EndY="8.06" />
+		<MountPoint Side="Bottom" StartX="3.08" StartY="7.35" EndX="3.79" EndY="8.06" />
+		<MountPoint Side="Bottom" StartX="2.36" StartY="7.35" EndX="3.08" EndY="8.06" />
+		<MountPoint Side="Bottom" StartX="5.19" StartY="3.31" EndX="5.69" EndY="5.69" />
+		<MountPoint Side="Bottom" StartX="3.31" StartY="3.31" EndX="3.81" EndY="5.69" />
+		<MountPoint Side="Bottom" StartX="3.31" StartY="5.19" EndX="5.69" EndY="5.69" />
+		<MountPoint Side="Bottom" StartX="3.31" StartY="3.31" EndX="5.69" EndY="3.81" />
+		<MountPoint Side="Top" StartX="3.31" StartY="5.19" EndX="5.69" EndY="5.69" />
+		<MountPoint Side="Top" StartX="3.31" StartY="3.31" EndX="5.69" EndY="3.81" />
+		<MountPoint Side="Top" StartX="3.31" StartY="3.31" EndX="3.81" EndY="5.69" />
+		<MountPoint Side="Top" StartX="5.19" StartY="3.31" EndX="5.69" EndY="5.69" />
+		<MountPoint Side="Top" StartX="6.00" StartY="4.00" EndX="7.00" EndY="5.00" />
+		<MountPoint Side="Top" StartX="4.00" StartY="6.00" EndX="5.00" EndY="7.00" />
+		<MountPoint Side="Top" StartX="4.00" StartY="2.00" EndX="5.00" EndY="3.00" />
+		<MountPoint Side="Top" StartX="2.00" StartY="4.00" EndX="3.00" EndY="5.00" />
+		<MountPoint Side="Bottom" StartX="6.00" StartY="4.00" EndX="7.00" EndY="5.00" />
+		<MountPoint Side="Bottom" StartX="4.00" StartY="6.00" EndX="5.00" EndY="7.00" />
+		<MountPoint Side="Bottom" StartX="4.00" StartY="2.00" EndX="5.00" EndY="3.00" />
+		<MountPoint Side="Bottom" StartX="2.00" StartY="4.00" EndX="3.00" EndY="5.00" />
+	</MountPoints>
+	<MirroringX>Z</MirroringX>
+	<MirroringY>None</MirroringY>
+	<MirroringZ>X</MirroringZ>
+	<BlockPairName>L_Tank_Oxygen_3x3x3</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <OperationalPowerConsumption>0.0001</OperationalPowerConsumption>
+      <StandbyPowerConsumption>0.0000001</StandbyPowerConsumption>
+      <Capacity>291600</Capacity>
+      <InventoryMaxVolume>4</InventoryMaxVolume>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <Public>false</Public>
+      <StoredGasId>
+        <TypeId>GasProperties</TypeId>
+        <SubtypeId>Oxygen</SubtypeId>
+      </StoredGasId>
+      <BlueprintClasses>
+        <Class>OxygenBottles</Class>
+      </BlueprintClasses>
+      <BuildTimeSeconds>40</BuildTimeSeconds>
+      <DamageEffectId>213</DamageEffectId>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+    </Definition>
+	
+  </CubeBlocks>
+</Definitions>
+
+    

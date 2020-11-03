@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+  
+    <Definition>
+      <Id>
+        <TypeId>ConveyorConnector</TypeId>
+        <SubtypeId>L_LG_Pipe_Straight</SubtypeId>
+      </Id>
+      <DisplayName>Large Tube</DisplayName>
+	  <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <Icon>Textures\GUI\Icons\L_LG_Pipe_Straight.dds</Icon>
+	  <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Pipe_Straight\L_LG_Pipe_Straight.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="1" />
+		<Component Subtype="LargeTube" Count="1" />		
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="SmallTube" Count="20" />
+        <Component Subtype="Motor" Count="6" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="InteriorPlate" Count="10" />
+		<Component Subtype="SteelPlate" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="1" />
+	  <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>15</BuildTimeSeconds>
+      <DamageEffectId>212</DamageEffectId>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+	<BuildProgressModels>
+		<Model BuildPercentUpperBound="0.33" File="Models\Pipe_Straight\L_LG_Pipe_Straight_Constr1.mwm" />
+		<Model BuildPercentUpperBound="0.67" File="Models\Pipe_Straight\L_LG_Pipe_Straight_Constr2.mwm" />
+		<Model BuildPercentUpperBound="1.00" File="Models\Pipe_Straight\L_LG_Pipe_Straight_Constr3.mwm" />
+	</BuildProgressModels>
+	<MountPoints>
+		<MountPoint Side="Top" StartX="0.73" StartY="0.10" EndX="0.90" EndY="0.90" />
+		<MountPoint Side="Bottom" StartX="0.73" StartY="0.10" EndX="0.90" EndY="0.90" />
+		<MountPoint Side="Top" StartX="0.10" StartY="0.10" EndX="0.27" EndY="0.90" />
+		<MountPoint Side="Bottom" StartX="0.10" StartY="0.10" EndX="0.27" EndY="0.90" />
+		<MountPoint Side="Top" StartX="0.10" StartY="0.73" EndX="0.90" EndY="0.90" />
+		<MountPoint Side="Bottom" StartX="0.10" StartY="0.73" EndX="0.90" EndY="0.90" />
+		<MountPoint Side="Top" StartX="0.10" StartY="0.10" EndX="0.90" EndY="0.27" />
+		<MountPoint Side="Bottom" StartX="0.10" StartY="0.10" EndX="0.90" EndY="0.27" />
+	</MountPoints>
+	<MirroringX>None</MirroringX>
+	<MirroringY>None</MirroringY>
+	<MirroringZ>None</MirroringZ>
+	<BlockPairName>L_ConveyorPipe</BlockPairName>
+    </Definition>
+	
+	
+	
+	
+	<Definition>
+      <Id>
+        <TypeId>ConveyorConnector</TypeId>
+        <SubtypeId>L_ME_Pipe_Straight</SubtypeId>
+      </Id>
+      <DisplayName>Medium Tube</DisplayName>
+	  <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <Icon>Textures\GUI\Icons\L_LG_Pipe_Straight.dds</Icon>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="3" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Pipe_Straight\L_ME_Pipe_Straight.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="1" />
+        <Component Subtype="LargeTube" Count="1" />
+        <Component Subtype="SmallTube" Count="10" />
+        <Component Subtype="Motor" Count="6" />
+		<Component Subtype="InteriorPlate" Count="1" />
+        <Component Subtype="SteelPlate" Count="3" />
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="1" />
+	  <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <DamageEffectId>212</DamageEffectId>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+	<BuildProgressModels>
+		<Model BuildPercentUpperBound="0.33" File="Models\Pipe_Straight\L_ME_Pipe_Straight_Constr1.mwm" />
+		<Model BuildPercentUpperBound="0.67" File="Models\Pipe_Straight\L_ME_Pipe_Straight_Constr2.mwm" />
+		<Model BuildPercentUpperBound="1.00" File="Models\Pipe_Straight\L_ME_Pipe_Straight_Constr3.mwm" />
+	</BuildProgressModels>
+	<MountPoints>
+		<MountPoint Side="Top" StartX="2.19" StartY="0.31" EndX="2.69" EndY="2.69" />
+		<MountPoint Side="Bottom" StartX="2.19" StartY="0.31" EndX="2.69" EndY="2.69" />
+		<MountPoint Side="Top" StartX="0.31" StartY="0.31" EndX="0.81" EndY="2.69" />
+		<MountPoint Side="Bottom" StartX="0.31" StartY="0.31" EndX="0.81" EndY="2.69" />
+		<MountPoint Side="Top" StartX="0.31" StartY="2.19" EndX="2.69" EndY="2.69" />
+		<MountPoint Side="Bottom" StartX="0.31" StartY="2.19" EndX="2.69" EndY="2.69" />
+		<MountPoint Side="Top" StartX="0.31" StartY="0.31" EndX="2.69" EndY="0.81" />
+		<MountPoint Side="Bottom" StartX="0.31" StartY="0.31" EndX="2.69" EndY="0.81" />
+	</MountPoints>
+	<MirroringX>None</MirroringX>
+	<MirroringY>None</MirroringY>
+	<MirroringZ>None</MirroringZ>
+    </Definition>
+	
+	
+	
+	
+	<Definition>
+      <Id>
+        <TypeId>ConveyorConnector</TypeId>
+        <SubtypeId>L_SM_Pipe_Straight</SubtypeId>
+      </Id>
+      <DisplayName>Small Tube</DisplayName>
+	  <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <Icon>Textures\GUI\Icons\L_LG_Pipe_Straight.dds</Icon>
+	  <GuiVisible>false</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Pipe_Straight\L_SM_Pipe_Straight.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="1" />
+		<Component Subtype="SmallTube" Count="1" />
+        <Component Subtype="Motor" Count="1" />
+        <Component Subtype="Construction" Count="1" />
+		<Component Subtype="InteriorPlate" Count="1" />
+		<Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="1" />
+	  <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <DamageEffectId>212</DamageEffectId>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+	<BuildProgressModels>
+		<Model BuildPercentUpperBound="0.33" File="Models\Pipe_Straight\L_SM_Pipe_Straight_Constr1.mwm" />
+		<Model BuildPercentUpperBound="0.67" File="Models\Pipe_Straight\L_SM_Pipe_Straight_Constr2.mwm" />
+		<Model BuildPercentUpperBound="1.00" File="Models\Pipe_Straight\L_SM_Pipe_Straight_Constr3.mwm" />
+	</BuildProgressModels>
+	<MountPoints>
+		<MountPoint Side="Top" StartX="0.73" StartY="0.10" EndX="0.90" EndY="0.90" />
+		<MountPoint Side="Bottom" StartX="0.73" StartY="0.10" EndX="0.90" EndY="0.90" />
+		<MountPoint Side="Top" StartX="0.10" StartY="0.10" EndX="0.27" EndY="0.90" />
+		<MountPoint Side="Bottom" StartX="0.10" StartY="0.10" EndX="0.27" EndY="0.90" />
+		<MountPoint Side="Top" StartX="0.10" StartY="0.73" EndX="0.90" EndY="0.90" />
+		<MountPoint Side="Bottom" StartX="0.10" StartY="0.73" EndX="0.90" EndY="0.90" />
+		<MountPoint Side="Top" StartX="0.10" StartY="0.10" EndX="0.90" EndY="0.27" />
+		<MountPoint Side="Bottom" StartX="0.10" StartY="0.10" EndX="0.90" EndY="0.27" />
+	</MountPoints>
+	<MirroringX>None</MirroringX>
+	<MirroringY>None</MirroringY>
+	<MirroringZ>None</MirroringZ>
+	<BlockPairName>L_ConveyorPipe</BlockPairName>
+    </Definition>
+  
+  </CubeBlocks>
+</Definitions>
