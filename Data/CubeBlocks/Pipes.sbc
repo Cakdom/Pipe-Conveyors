@@ -10,7 +10,7 @@
       <DisplayName>Large Pipe Hub</DisplayName>
       <Icon>Textures\GUI\Icons\LG_Pipe_Hub.dds</Icon>
       <Description>Conveyor Pipe</Description>
-	    <GuiVisible>true</GuiVisible>
+	    <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -1412,7 +1412,7 @@
       <DisplayName>Large Pipe Cube</DisplayName>
       <Icon>Textures\GUI\Icons\LG_Exo_Pipe_Straight.dds</Icon>
       <Description>Conveyor Pipe</Description>
-	    <GuiVisible>true</GuiVisible>
+	    <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -1460,7 +1460,7 @@
       </Id>
       <DisplayName>Medium Pipe Cube</DisplayName>
       <Icon>Textures\GUI\Icons\LG_Exo_Pipe_Straight.dds</Icon>
-      <GuiVisible>true</GuiVisible>
+      <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="3" />
@@ -1560,7 +1560,7 @@
       <DisplayName>Medium Pipeframe</DisplayName>
       <Icon>Textures\GUI\Icons\ME_Pipe_Frame.dds</Icon>
       <Description>Conveyor Pipe</Description>
-      <GuiVisible>true</GuiVisible>
+      <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="1" z="3" />

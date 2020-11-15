@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
-  
-	<Definition>
+
+	  <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
         <SubtypeId>LG_Pipe_End</SubtypeId>
@@ -10,7 +10,7 @@
       <DisplayName>Large Pipe End</DisplayName>
       <Icon>Textures\GUI\Icons\LG_Pipe_End.dds</Icon>
       <Description>Conveyor Pipe</Description>
-	    <GuiVisible>true</GuiVisible>
+	    <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -87,7 +87,7 @@
       <PCU>10</PCU>
       <IsAirTight>false</IsAirTight> 
     </Definition>
-	<Definition>
+	  <Definition>
       <Id>
         <TypeId>Conveyor</TypeId>
         <SubtypeId>SM_Pipe_End</SubtypeId>
@@ -308,10 +308,9 @@
         <SubtypeId>LG_Pipe_Straight_Vent</SubtypeId>
       </Id>
       <DisplayName>Large Vent Pipe</DisplayName>
-	  <EmissiveColorPreset>Extended</EmissiveColorPreset>
       <Icon>Textures\GUI\Icons\LG_Pipe_Straight_Vent.dds</Icon>
       <Description>Conveyor Pipe</Description>
-	    <GuiVisible>true</GuiVisible>
+	    <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -364,9 +363,8 @@
         <SubtypeId>ME_Pipe_Straight_Vent</SubtypeId>
       </Id>
       <DisplayName>Medium Vent Pipe</DisplayName>
-	  <EmissiveColorPreset>Extended</EmissiveColorPreset>
       <Icon>Textures\GUI\Icons\LG_Pipe_Straight_Vent.dds</Icon>
-      <GuiVisible>true</GuiVisible>
+      <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="1" />
@@ -417,7 +415,6 @@
         <SubtypeId>SM_Pipe_Straight_Vent</SubtypeId>
       </Id>
       <DisplayName>Small Vent Pipe</DisplayName>
-	  <EmissiveColorPreset>Extended</EmissiveColorPreset>
       <Icon>Textures\GUI\Icons\LG_Pipe_Straight_Vent.dds</Icon>
       <Description>Conveyor Pipe</Description>
 	    <GuiVisible>false</GuiVisible>
@@ -707,7 +704,7 @@
       <PCU>25</PCU>      
       <IsAirTight>false</IsAirTight>
     </Definition>
-  	 <Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
+  	<Definition xsi:type="MyObjectBuilder_ConveyorSorterDefinition">
       <Id>
         <TypeId>ConveyorSorter</TypeId>
         <SubtypeId>ME_Pipe_Curved_Sorter</SubtypeId>

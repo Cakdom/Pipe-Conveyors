@@ -10,7 +10,7 @@
       <DisplayName>Large Cargo Pipe</DisplayName>
       <Icon>Textures\GUI\Icons\LG_Cargo_Pipe.dds</Icon>
       <Description>Conveyor Pipe</Description>
-	    <GuiVisible>true</GuiVisible>
+	    <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -70,7 +70,7 @@
       <DisplayName>Large Cargo Pipe XL</DisplayName>	  
       <Icon>Textures\GUI\Icons\LG_Cargo_Pipe_3x3x3.dds</Icon>
       <Description>Conveyor Pipe</Description>
-	    <GuiVisible>true</GuiVisible>
+	    <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="3" />
@@ -186,7 +186,7 @@
       <DisplayName>Medium Cargo Pipe</DisplayName>
       <Icon>Textures\GUI\Icons\ME_Cargo_Pipe.dds</Icon>
       <Description>Conveyor Pipe</Description>
-	    <GuiVisible>true</GuiVisible>
+	    <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="3" />
@@ -246,7 +246,7 @@
       <DisplayName>Small Cargo Pipe XL</DisplayName>
       <Icon>Textures\GUI\Icons\SM_Cargo_Pipe_3x3x3.dds</Icon>
       <Description>Conveyor Pipe</Description>
-	    <GuiVisible>true</GuiVisible>
+	    <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="9" y="9" z="9" />
@@ -311,7 +311,7 @@
       <DisplayName>Large Oxygen Pipe</DisplayName>
       <Icon>Textures\GUI\Icons\LG_Tank_Oxygen.dds</Icon>
       <Description>Conveyor Pipe</Description>
-	    <GuiVisible>true</GuiVisible>
+	    <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -389,7 +389,7 @@
       <DisplayName>Large Oxygen Pipe XL</DisplayName>
       <Icon>Textures\GUI\Icons\LG_Tank_Oxygen_3x3x3.dds</Icon>
       <Description>Conveyor Pipe</Description>
-	    <GuiVisible>true</GuiVisible>
+	    <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="3" />
@@ -596,7 +596,7 @@
       <DisplayName>Medium Oxygen Pipe</DisplayName>
       <Icon>Textures\GUI\Icons\ME_Tank_Oxygen.dds</Icon>
       <Description>Conveyor Pipe</Description>
-	    <GuiVisible>true</GuiVisible>
+	    <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="3" />
@@ -819,7 +819,7 @@
       <DisplayName>Large Hydrogen Pipe</DisplayName>
       <Icon>Textures\GUI\Icons\LG_Tank_Hydro.dds</Icon>
       <Description>Conveyor Pipe</Description>
-	    <GuiVisible>true</GuiVisible>
+	    <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -897,7 +897,7 @@
       <DisplayName>Large Hydrogen Pipe XL</DisplayName>
       <Icon>Textures\GUI\Icons\LG_Tank_Hydro_3x3x3.dds</Icon>
       <Description>Conveyor Pipe</Description>
-	    <GuiVisible>true</GuiVisible>
+	    <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="3" />
@@ -1104,7 +1104,7 @@
       <DisplayName>Medium Hydrogen Pipe</DisplayName>
       <Icon>Textures\GUI\Icons\ME_Tank_Hydro.dds</Icon>
       <Description>Conveyor Pipe</Description>
-	    <GuiVisible>true</GuiVisible>
+	    <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="3" />
