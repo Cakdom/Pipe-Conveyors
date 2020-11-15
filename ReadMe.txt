@@ -8,8 +8,7 @@ Welcome to the totally reworked Pipe Conveyors providing you with a wide veriety
 
 [h1]Thanks![/h1]
 --------------------------------------
-- [url=https://steamcommunity.com/id/argual]Argual[/url] who made the original mods I enjoyed so much and am overhauling in this mod. Argual is no longer modding and has given permission for others to take up the mods. 
-- Find the original [url=https://steamcommunity.com/sharedfiles/filedetails/?id=730332125]here[/url].
+- [url=https://steamcommunity.com/id/argual]Argual[/url] who made the original mods I enjoyed so much and am overhauling in this mod. Argual is no longer modding and has given permission for others to take up the mods. Find the original [url=https://steamcommunity.com/sharedfiles/filedetails/?id=730332125]here[/url].
 
 [h1]Planned Features:[/h1]
 --------------------------------------
