@@ -2,13 +2,9 @@ Pipe Conveyors:
 
 Welcome to the totally reworked Pipe Conveyors providing you with a wide veriety of conveyor and related blocks. These blocks are pretty and durrable so you can design your ships to show off your advanced conveyor networks without worrying about a little combat. 
 
-[h1]Recommendations To Use:[/h1]
---------------------------------------
-- 
-
 [h1]FAQ:[/h1]
 --------------------------------------
-? 
+? Moving from original Mod; I have kept the same block IDs so creations with the old mod will transfer BUT I have not implimented all the blocks in the original mod and likely wont so ships may still break :( I have included most of the pipes but non of the Tubes(unarmored verieties). 
 
 [h1]Thanks![/h1]
 --------------------------------------
