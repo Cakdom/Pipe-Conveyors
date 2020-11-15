@@ -13,9 +13,9 @@ Welcome to the totally reworked Pipe Conveyors providing you with a wide veriety
 
 [h1]Planned Features:[/h1]
 --------------------------------------
-[url=https://github.com/Cakdom/PipeConveyors]GitHub Source Code[/url] 
-! New models that use skins
-! Version with upgrades for storage
+[url=https://github.com/Cakdom/Pipe-Conveyors]GitHub Source Code[/url] 
+! New models that use the skins.
+! Version with upgrades for storage.
 
 
 [h1]Copywrite[/h1]
